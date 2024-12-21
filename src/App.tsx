@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto mt-14">
+      <div className="container mx-auto my-14">
         <Banner />
         <FindHospital />
       </div>

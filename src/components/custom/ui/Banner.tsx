@@ -14,7 +14,7 @@ export default function Component() {
       };
 
     return (
-        <div className="my-14">
+        <div className="overflow-hidden">
             <Slider {...settings}>
                 <PlaceHolder />
 
