@@ -14,7 +14,7 @@ export default function Component() {
       };
 
     return (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden py-6">
             <Slider {...settings}>
                 <PlaceHolder />
 
