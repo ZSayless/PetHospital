@@ -11,7 +11,7 @@ import {
   const hospitals = Array.from({ length: 12 }).map(
     (_, i, a) => (
         <Card key={a.length - i} className="group hover:shadow-lg select-none transition ease-out duration-500">
-            <a href="#" target="_self">
+            <a href={`/hospital/${i + 1}`} target="_self">
                 <CardHeader className="pb-4">
                     <AspectRatio ratio={15/10}>
                         <img src="vite.svg" alt="hospital_img" className="group-hover:scale-110 w-full h-[200px] object-contain pb-2 transition ease-out duration-500" />
